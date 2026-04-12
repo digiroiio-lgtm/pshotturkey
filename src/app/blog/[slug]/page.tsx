@@ -6,7 +6,7 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 import { Calendar, Clock, ArrowLeft } from 'lucide-react';
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -14,7 +14,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const post = blogPosts.find(p => p.slug === params.slug);
+  const { slug } = await params;
+  const post = blogPosts.find(p => p.slug === slug);
   if (!post) return {};
   return {
     title: post.title,
@@ -22,8 +23,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default function BlogPostPage({ params }: PageProps) {
-  const post = blogPosts.find(p => p.slug === params.slug);
+export default async function BlogPostPage({ params }: PageProps) {
+  const { slug } = await params;
+  const post = blogPosts.find(p => p.slug === slug);
   if (!post) notFound();
 
   const articleSchema = {
