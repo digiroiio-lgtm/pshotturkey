@@ -12,11 +12,11 @@ import { getFAQSchema, organizationSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'P-Shot Turkey Price 2026 | How Much Does P-Shot Cost in Turkey?',
   description:
-    'P-Shot price in Turkey starts from £240 — up to 85% cheaper than the UK. Full 2026 pricing breakdown, what is included, and how to book your treatment.',
+    'P-Shot price in Turkey starts from £350 — up to 85% cheaper than the UK. Full 2026 pricing breakdown, what is included, and how to book your treatment.',
 };
 
 const benefits = [
-  { icon: 'TrendingDown', title: 'From £240 Per Session', description: 'Industry-leading prices with no compromise on quality' },
+  { icon: 'TrendingDown', title: 'From £350 Per Session', description: 'Industry-leading prices with no compromise on quality' },
   { icon: 'ShieldCheck', title: 'Transparent Pricing', description: 'No hidden fees — consultation, PRP, and aftercare included' },
   { icon: 'Award', title: 'Board-Certified Specialists', description: 'Procedures by qualified urologists in JCI-accredited clinics' },
   { icon: 'Clock', title: 'Same-Day Treatment', description: 'Arrive, consult, and treat in a single visit if required' },
@@ -27,7 +27,7 @@ const benefits = [
 const faqs = [
   {
     question: 'What is the price of a P-Shot in Turkey in 2026?',
-    answer: 'A single P-Shot session in Turkey costs from £240 (approximately €280 / $300 USD). Package deals covering 2-3 sessions are available at further reduced rates. Contact us for your personalised quote.',
+    answer: 'A single P-Shot session in Turkey costs £350 (€350 / $350 USD). Package deals covering 2-3 sessions are available at further reduced rates. Contact us for your personalised quote.',
   },
   {
     question: 'What is included in the P-Shot price?',
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'How does the Turkey price compare to the UK?',
-    answer: 'In the UK, a single P-Shot session typically costs £1,500–£3,000. In Turkey with PShotTurkey, the same procedure starts from £240 — a saving of up to 85%. Even after adding flights and accommodation, most UK patients save over £1,000.',
+    answer: 'In the UK, a single P-Shot session typically costs £1,500–£3,000. In Turkey with PShotTurkey, the same procedure starts from £350 — a saving of up to 85%. Even after adding flights and accommodation, most UK patients save over £1,000.',
   },
   {
     question: 'Are there package deals for multiple P-Shot sessions?',
@@ -56,7 +56,7 @@ export default function PShotTurkeyPricePage() {
     <>
       <SchemaMarkup schemas={[organizationSchema, getFAQSchema(faqs)]} />
       <HeroSection
-        title="P-Shot Turkey Price – From £240 in 2026"
+        title="P-Shot Turkey Price – From £350 in 2026"
         subtitle="Full P-Shot pricing in Turkey, what's included, and why thousands of men choose Turkey for world-class PRP treatment at a fraction of UK costs."
       />
       <PricingSection />
@@ -74,13 +74,13 @@ export default function PShotTurkeyPricePage() {
               </thead>
               <tbody>
                 {[
-                  ['P-Shot (1 session)', '£1,500 – £3,000', 'From £240'],
-                  ['P-Shot (2 sessions)', '£3,000 – £6,000', 'From £420'],
-                  ['P-Shot + Shockwave Combo', '£3,500 – £7,000', 'From £580'],
+                  ['P-Shot (1 session)', '£1,500 – £3,000', 'From £350'],
+                  ['P-Shot (2 sessions)', '£3,000 – £6,000', 'From £620'],
+                  ['P-Shot + Shockwave Combo', '£3,500 – £7,000', 'From £850'],
                   ['Initial Consultation', '£100 – £300', 'FREE'],
                   ['PRP Preparation', 'Often extra', 'Included'],
                   ['12-Month Aftercare', 'Limited / extra charge', 'Included FREE'],
-                  ['Total (typical single session)', '£2,000+', 'From £240 + travel'],
+                  ['Total (typical single session)', '£2,000+', 'From £350 + travel'],
                 ].map(([item, uk, turkey]) => (
                   <tr key={item} className="border-b border-gray-100 even:bg-slate-50">
                     <td className="p-4 font-medium text-slate-800">{item}</td>

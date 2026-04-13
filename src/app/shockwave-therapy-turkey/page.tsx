@@ -13,7 +13,7 @@ import { getMedicalProcedureSchema, getFAQSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'Shockwave Therapy Turkey | LiSWT for Erectile Dysfunction',
   description:
-    'Low-intensity shockwave therapy (LiSWT) for erectile dysfunction in Turkey. Clinically proven, drug-free ED treatment. Free consultation. From £240.',
+    'Low-intensity shockwave therapy (LiSWT) for erectile dysfunction in Turkey. Clinically proven, drug-free ED treatment. Free consultation. From £350.',
 };
 
 const benefits = [

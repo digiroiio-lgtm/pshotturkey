@@ -13,7 +13,7 @@ import { organizationSchema, localBusinessSchema, getFAQSchema } from '@/lib/sch
 export const metadata: Metadata = {
   title: 'P-Shot Turkey | PRP for Erectile Dysfunction',
   description:
-    'Get P-Shot (PRP) treatment for erectile dysfunction in Turkey from £240. Expert specialists, JCI-accredited clinics. Free consultation available.',
+    'Get P-Shot (PRP) treatment for erectile dysfunction in Turkey from £350. Expert specialists, JCI-accredited clinics. Free consultation available.',
 };
 
 const benefits = [
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: 'How much does P-Shot cost in Turkey?',
-    answer: 'P-Shot treatment in Turkey starts from £240 (€270/$300), compared to £1,500-£3,000 in the UK. Even including travel, most patients save thousands of pounds.',
+    answer: 'P-Shot treatment in Turkey starts from £350 (€350/$350), compared to £1,500-£3,000 in the UK. Even including travel, most patients save thousands of pounds.',
   },
   {
     question: 'When will I see results?',

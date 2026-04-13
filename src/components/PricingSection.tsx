@@ -29,7 +29,7 @@ export default function PricingSection() {
           <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-blue-800">
             <div className="text-center mb-6">
               <p className="text-slate-500 mb-2">P-Shot Treatment in Turkey</p>
-              <p className="text-5xl font-bold text-blue-800">{formatPrice(300, currency)}</p>
+              <p className="text-5xl font-bold text-blue-800">{formatPrice(350, currency)}</p>
               <p className="text-slate-400 text-sm mt-2">per session</p>
             </div>
             <ul className="space-y-3 mb-8">
@@ -55,7 +55,7 @@ export default function PricingSection() {
               {[
                 { location: 'UK Clinics', price: '£1,500 – £3,000', highlight: false },
                 { location: 'USA Clinics', price: '$1,800 – $3,500', highlight: false },
-                { location: 'PShotTurkey', price: `From ${formatPrice(300, currency)}`, highlight: true },
+                { location: 'PShotTurkey', price: `From ${formatPrice(350, currency)}`, highlight: true },
               ].map(row => (
                 <div
                   key={row.location}

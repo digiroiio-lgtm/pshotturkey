@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | PShotTurkey",
   },
   description:
-    "World-class P-Shot (PRP) treatment for erectile dysfunction in Turkey. Starting from £240. Free consultation available.",
+    "World-class P-Shot (PRP) treatment for erectile dysfunction in Turkey. Starting from £350. Free consultation available.",
   metadataBase: new URL("https://pshotturkey.com"),
   openGraph: {
     type: "website",

@@ -12,7 +12,7 @@ import { getMedicalProcedureSchema, getFAQSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'P-Shot Izmir | PRP ED Treatment in Izmir, Turkey',
   description:
-    'P-Shot treatment in Izmir, Turkey. Expert PRP therapy for erectile dysfunction at accredited Izmir clinics. Free consultation. From £240.',
+    'P-Shot treatment in Izmir, Turkey. Expert PRP therapy for erectile dysfunction at accredited Izmir clinics. Free consultation. From £350.',
 };
 
 const benefits = [
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     question: 'What is the cost of P-Shot treatment in Izmir?',
-    answer: 'P-Shot treatment in Izmir starts from £240, the same competitive pricing as our Istanbul and Antalya clinics. Combination packages with shockwave therapy are available at additional savings. Contact us for a personalised quote.',
+    answer: 'P-Shot treatment in Izmir starts from £350, the same competitive pricing as our Istanbul and Antalya clinics. Combination packages with shockwave therapy are available at additional savings. Contact us for a personalised quote.',
   },
 ];
 

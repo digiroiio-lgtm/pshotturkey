@@ -12,14 +12,14 @@ import { getMedicalProcedureSchema, getFAQSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'PRP Injection Turkey | PRP Treatment for Erectile Dysfunction',
   description:
-    'PRP injection therapy for erectile dysfunction in Turkey. Expert platelet-rich plasma treatment by board-certified urologists. From £240. Free consultation.',
+    'PRP injection therapy for erectile dysfunction in Turkey. Expert platelet-rich plasma treatment by board-certified urologists. From £350. Free consultation.',
 };
 
 const benefits = [
   { icon: 'Activity', title: 'Natural Treatment', description: 'Platelet-rich plasma uses your own body\'s growth factors — no synthetic drugs' },
   { icon: 'ShieldCheck', title: 'Proven Safety Profile', description: 'Autologous PRP with decades of clinical evidence across medical specialties' },
   { icon: 'Award', title: 'Specialist Practitioners', description: 'PRP injections administered only by board-certified urologists' },
-  { icon: 'TrendingDown', title: 'Affordable in Turkey', description: 'PRP injection therapy from £240 — up to 85% less than UK prices' },
+  { icon: 'TrendingDown', title: 'Affordable in Turkey', description: 'PRP injection therapy from £350 — up to 85% less than UK prices' },
   { icon: 'Clock', title: 'Quick Procedure', description: 'The full PRP injection process takes approximately 45-60 minutes' },
   { icon: 'Star', title: 'High Efficacy', description: 'Clinically demonstrated improvements in erectile function and sensitivity' },
 ];
@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     question: 'How much does a PRP injection cost in Turkey?',
-    answer: 'PRP injection therapy for ED starts from £240 per session in Turkey through PShotTurkey, compared to £1,500–£3,000 in the UK. This represents savings of up to 85% for the identical procedure performed by equally qualified specialists.',
+    answer: 'PRP injection therapy for ED starts from £350 per session in Turkey through PShotTurkey, compared to £1,500–£3,000 in the UK. This represents savings of up to 85% for the identical procedure performed by equally qualified specialists.',
   },
   {
     question: 'How soon after the PRP injection can I have sex?',
@@ -56,7 +56,7 @@ export default function PRPInjectionTurkeyPage() {
       ]} />
       <HeroSection
         title="PRP Injection for ED in Turkey – Expert Treatment"
-        subtitle="Platelet-rich plasma injection therapy for erectile dysfunction. Expert PRP treatment by board-certified urologists in Turkey, from just £240."
+        subtitle="Platelet-rich plasma injection therapy for erectile dysfunction. Expert PRP treatment by board-certified urologists in Turkey, from just £350."
       />
       <BenefitsSection benefits={benefits} heading="Benefits of PRP Injection Therapy" />
       <HowItWorks />

@@ -12,7 +12,7 @@ import { getMedicalProcedureSchema, getFAQSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'P-Shot Turkey | Priapus Shot PRP Treatment',
   description:
-    'The P-Shot (Priapus Shot) in Turkey. Non-surgical PRP treatment for erectile dysfunction by board-certified specialists. Free consultation. From £240.',
+    'The P-Shot (Priapus Shot) in Turkey. Non-surgical PRP treatment for erectile dysfunction by board-certified specialists. Free consultation. From £350.',
 };
 
 const benefits = [

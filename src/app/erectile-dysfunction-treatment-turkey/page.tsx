@@ -11,9 +11,9 @@ import SchemaMarkup from '@/components/SchemaMarkup';
 import { getMedicalProcedureSchema, getFAQSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Erectile Dysfunction Treatment Turkey | ED Treatments from £240',
+  title: 'Erectile Dysfunction Treatment Turkey | ED Treatments from £350',
   description:
-    'Effective erectile dysfunction treatment in Turkey. P-Shot, shockwave therapy, and PRP by board-certified specialists. From £240. Free consultation.',
+    'Effective erectile dysfunction treatment in Turkey. P-Shot, shockwave therapy, and PRP by board-certified specialists. From £350. Free consultation.',
 };
 
 const benefits = [

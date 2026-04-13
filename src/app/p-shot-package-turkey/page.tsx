@@ -12,7 +12,7 @@ import { getFAQSchema, organizationSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'P-Shot Package Turkey | All-Inclusive P-Shot Treatment Packages',
   description:
-    'All-inclusive P-Shot packages in Turkey. Includes treatment, consultation, aftercare, and patient support. From £240. Compare packages and book today.',
+    'All-inclusive P-Shot packages in Turkey. Includes treatment, consultation, aftercare, and patient support. From £350. Compare packages and book today.',
 };
 
 const benefits = [
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What packages are available?',
-    answer: 'We offer: Single P-Shot (from £240), 2-Session P-Shot Course (from £420), P-Shot + Shockwave Therapy Combo (from £580), and an All-Inclusive Medical Trip package that includes patient coordination, airport transfer guidance, and hotel recommendations alongside treatment.',
+    answer: 'We offer: Single P-Shot (from £350), 2-Session P-Shot Course (from £620), P-Shot + Shockwave Therapy Combo (from £850), and an All-Inclusive Medical Trip package that includes patient coordination, airport transfer guidance, and hotel recommendations alongside treatment.',
   },
   {
     question: 'Can I add shockwave therapy to my P-Shot package?',
@@ -64,19 +64,19 @@ export default function PShotPackageTurkeyPage() {
             {[
               {
                 name: 'Starter',
-                price: 'From £240',
+                price: 'From £350',
                 includes: ['1x P-Shot session', 'Full consultation', 'PRP preparation', 'Aftercare kit', '12-month support'],
                 cta: 'Book Starter',
               },
               {
                 name: 'Enhanced',
-                price: 'From £420',
+                price: 'From £620',
                 includes: ['2x P-Shot sessions', 'Full consultation', 'PRP preparation x2', 'Aftercare kit', '12-month support', 'Priority booking'],
                 cta: 'Book Enhanced',
               },
               {
                 name: 'Ultimate Combo',
-                price: 'From £580',
+                price: 'From £850',
                 includes: ['2x P-Shot sessions', '3x Shockwave therapy', 'Full consultation', 'Aftercare kit', '12-month support', 'Patient coordinator', 'Priority booking'],
                 cta: 'Book Ultimate',
               },

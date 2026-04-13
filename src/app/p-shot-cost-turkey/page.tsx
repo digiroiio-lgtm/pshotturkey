@@ -10,13 +10,13 @@ import { getFAQSchema, organizationSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'P-Shot Cost Turkey | Compare UK vs Turkey Prices 2024',
   description:
-    'P-Shot costs in Turkey from £240 vs £1,500-£3,000 in the UK. Full price comparison, what is included, and how to save up to 85% on your treatment.',
+    'P-Shot costs in Turkey from £350 vs £1,500-£3,000 in the UK. Full price comparison, what is included, and how to save up to 85% on your treatment.',
 };
 
 const faqs = [
   {
     question: 'What is the total cost of P-Shot treatment in Turkey?',
-    answer: 'The P-Shot procedure itself starts from £240 ($300/€270). When adding flights and accommodation, total trip costs typically range from £500-£800, still saving thousands versus UK prices.',
+    answer: 'The P-Shot procedure itself costs £350 ($350/€350). When adding flights and accommodation, total trip costs typically range from £600-£900, still saving thousands versus UK prices.',
   },
   {
     question: 'Why is P-Shot so much cheaper in Turkey?',
@@ -42,7 +42,7 @@ export default function PShotCostPage() {
       <SchemaMarkup schemas={[organizationSchema, getFAQSchema(faqs)]} />
       <HeroSection
         title="P-Shot Cost in Turkey – Save Up to 85%"
-        subtitle="P-Shot treatment in Turkey starts from just £240, compared to £1,500-£3,000 in the UK. World-class care at a fraction of the price."
+        subtitle="P-Shot treatment in Turkey starts from just £350, compared to £1,500-£3,000 in the UK. World-class care at a fraction of the price."
       />
       <PricingSection />
       <section className="py-16 px-4 bg-white">
@@ -59,12 +59,12 @@ export default function PShotCostPage() {
               </thead>
               <tbody>
                 {[
-                  ['P-Shot Procedure', '£1,500 – £3,000', 'From £240'],
+                  ['P-Shot Procedure', '£1,500 – £3,000', 'From £350'],
                   ['Initial Consultation', '£100 – £300', 'FREE'],
                   ['PRP Preparation', 'Often extra', 'Included'],
                   ['Aftercare Support', 'Limited', '12 months included'],
                   ['Follow-up Appointments', '£100+ each', 'FREE'],
-                  ['Total (typical)', '£2,000 – £3,500', 'From £240 + travel'],
+                  ['Total (typical)', '£2,000 – £3,500', 'From £350 + travel'],
                 ].map(([item, uk, turkey]) => (
                   <tr key={item} className="border-b border-gray-100 even:bg-slate-50">
                     <td className="p-4 font-medium text-slate-800">{item}</td>

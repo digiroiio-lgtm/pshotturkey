@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'How much does genital PRP cost in Turkey?',
-    answer: 'Genital PRP therapy in Turkey starts from £240 per session through PShotTurkey — compared to £1,500–£3,000 in the UK. This represents a saving of up to 85% for the same world-class procedure performed by board-certified specialists.',
+    answer: 'Genital PRP therapy in Turkey starts from £350 per session through PShotTurkey — compared to £1,500–£3,000 in the UK. This represents a saving of up to 85% for the same world-class procedure performed by board-certified specialists.',
   },
   {
     question: 'How is genital PRP different from the P-Shot?',

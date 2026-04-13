@@ -71,19 +71,19 @@ export default function HowManySessionsPShotTurkeyPage() {
             {[
               {
                 title: 'Single Session',
-                price: 'From £240',
+                price: 'From £350',
                 ideal: 'Mild to moderate ED, first-time patients, cost-conscious patients',
                 results: 'Good results for 70-75% of patients. Results last 12-15 months.',
               },
               {
                 title: '2-Session Course',
-                price: 'From £420',
+                price: 'From £620',
                 ideal: 'Moderate ED, men wanting to maximise outcomes, Peyronie\'s disease',
                 results: 'Significantly improved outcomes vs single session. Results last 15-18 months.',
               },
               {
                 title: 'P-Shot + Shockwave Combo',
-                price: 'From £580',
+                price: 'From £850',
                 ideal: 'Moderate to severe ED, men who haven\'t responded to medication, seeking lasting results',
                 results: 'Best outcomes. Synergistic combination. Results often last 18-24+ months.',
               },
