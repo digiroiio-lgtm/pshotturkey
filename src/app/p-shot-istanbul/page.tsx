@@ -12,7 +12,7 @@ import { getMedicalProcedureSchema, getFAQSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'P-Shot Istanbul | PRP ED Treatment in Istanbul, Turkey',
   description:
-    'Get P-Shot treatment in Istanbul, Turkey. Expert PRP therapy for erectile dysfunction in world-class Istanbul clinics. From £240. Free consultation.',
+    'Get P-Shot treatment in Istanbul, Turkey. Expert PRP therapy for erectile dysfunction in world-class Istanbul clinics. From £350. Free consultation.',
 };
 
 const benefits = [

@@ -6,12 +6,12 @@ export const CURRENCY_SYMBOLS: Record<Currency, string> = {
   USD: '$',
 };
 
-export const BASE_PRICE_USD = 300;
+export const BASE_PRICE_USD = 350;
 
 export const EXCHANGE_RATES: Record<Currency, number> = {
   USD: 1,
-  EUR: 0.92,
-  GBP: 0.80,
+  EUR: 1,
+  GBP: 1,
 };
 
 export function convertPrice(usdPrice: number, currency: Currency): number {

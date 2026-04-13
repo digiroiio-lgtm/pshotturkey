@@ -12,7 +12,7 @@ import { getMedicalProcedureSchema, getFAQSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'P-Shot Turkey | Priapus Shot PRP Treatment',
   description:
-    'The P-Shot (Priapus Shot) in Turkey. Non-surgical PRP treatment for erectile dysfunction by board-certified specialists. Free consultation. From £240.',
+    'The P-Shot (Priapus Shot) in Turkey. Non-surgical PRP treatment for erectile dysfunction by board-certified specialists. Free consultation. From £350.',
 };
 
 const benefits = [
@@ -68,6 +68,27 @@ export default function PShotTurkeyPage() {
       <TrustSection />
       <CTASection />
       <LeadForm />
+      <section className="py-12 px-4 bg-slate-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-slate-800 text-center mb-8">Learn More About P-Shot</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {[
+              { href: '/how-p-shot-works', label: 'How P-Shot Works' },
+              { href: '/p-shot-success-rate', label: 'P-Shot Success Rate' },
+              { href: '/who-is-good-candidate-p-shot', label: 'Am I a Good Candidate?' },
+              { href: '/recovery-after-p-shot', label: 'Recovery After P-Shot' },
+              { href: '/does-p-shot-increase-size', label: 'Does P-Shot Increase Size?' },
+              { href: '/p-shot-cost-turkey', label: 'P-Shot Cost & Pricing' },
+              { href: '/p-shot-packages-turkey', label: 'Treatment Packages' },
+              { href: '/best-p-shot-clinics-turkey', label: 'Best Clinics in Turkey' },
+            ].map(({ href, label }) => (
+              <a key={href} href={href} className="block p-4 bg-white rounded-lg border border-slate-200 hover:border-blue-500 hover:shadow-sm transition-all text-slate-700 font-medium text-sm text-center">
+                {label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }

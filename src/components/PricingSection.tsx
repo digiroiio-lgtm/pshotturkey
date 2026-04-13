@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import { useCurrency } from '@/lib/CurrencyContext';
 import { formatPrice } from '@/lib/currency';
 import { CheckCircle } from 'lucide-react';
@@ -29,7 +28,7 @@ export default function PricingSection() {
           <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-blue-800">
             <div className="text-center mb-6">
               <p className="text-slate-500 mb-2">P-Shot Treatment in Turkey</p>
-              <p className="text-5xl font-bold text-blue-800">{formatPrice(300, currency)}</p>
+              <p className="text-5xl font-bold text-blue-800">{formatPrice(350, currency)}</p>
               <p className="text-slate-400 text-sm mt-2">per session</p>
             </div>
             <ul className="space-y-3 mb-8">
@@ -40,12 +39,14 @@ export default function PricingSection() {
                 </li>
               ))}
             </ul>
-            <Link
-              href="#contact"
+            <a
+              href="https://wa.me/905353998999?text=Hello%2C%20I%20would%20like%20to%20get%20an%20exact%20quote%20for%20P-Shot%20treatment."
+              target="_blank"
+              rel="noopener noreferrer"
               className="block w-full text-center bg-blue-800 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition-colors"
             >
               Get Exact Quote
-            </Link>
+            </a>
           </div>
 
           {/* Comparison table */}
@@ -55,7 +56,7 @@ export default function PricingSection() {
               {[
                 { location: 'UK Clinics', price: '£1,500 – £3,000', highlight: false },
                 { location: 'USA Clinics', price: '$1,800 – $3,500', highlight: false },
-                { location: 'PShotTurkey', price: `From ${formatPrice(300, currency)}`, highlight: true },
+                { location: 'PShotTurkey', price: `From ${formatPrice(350, currency)}`, highlight: true },
               ].map(row => (
                 <div
                   key={row.location}

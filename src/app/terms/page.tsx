@@ -49,7 +49,7 @@ export default function TermsPage() {
         <p>We reserve the right to update these terms at any time. Continued use of the website after changes constitutes acceptance of the updated terms.</p>
 
         <h2>13. Contact</h2>
-        <p>For enquiries about these terms, contact us via WhatsApp: <a href="https://wa.me/905391234567">+90 539 123 4567</a></p>
+        <p>For enquiries about these terms, contact us via WhatsApp: <a href="https://wa.me/905353998999">+90 535 399 8999</a></p>
       </div>
     </div>
   );

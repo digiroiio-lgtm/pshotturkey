@@ -12,7 +12,7 @@ import { getMedicalProcedureSchema, getFAQSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'PRP for ED | Platelet-Rich Plasma Therapy for Erectile Dysfunction',
   description:
-    'PRP therapy for erectile dysfunction in Turkey. The P-Shot uses your own platelet-rich plasma to restore natural erectile function. From £240. Free consultation.',
+    'PRP therapy for erectile dysfunction in Turkey. The P-Shot uses your own platelet-rich plasma to restore natural erectile function. From £350. Free consultation.',
 };
 
 const benefits = [

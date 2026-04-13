@@ -78,7 +78,7 @@ export default function PrivacyPolicyPage() {
         <p>We may update this privacy policy from time to time. Significant changes will be notified on our website. Continued use of our website after changes constitutes acceptance of the updated policy.</p>
 
         <h2>11. Contact</h2>
-        <p>For privacy-related enquiries, contact us via WhatsApp: <a href="https://wa.me/905391234567">+90 539 123 4567</a></p>
+        <p>For privacy-related enquiries, contact us via WhatsApp: <a href="https://wa.me/905353998999">+90 535 399 8999</a></p>
       </div>
     </div>
   );

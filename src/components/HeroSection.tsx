@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { CheckCircle } from 'lucide-react';
 
 interface HeroSectionProps {
@@ -17,8 +16,8 @@ const trustBadges = [
 export default function HeroSection({
   title,
   subtitle,
-  ctaText = 'Check Your Eligibility',
-  ctaHref = '#contact',
+  ctaText = 'Talk to Our Assistant',
+  ctaHref = 'https://wa.me/905353998999',
 }: HeroSectionProps) {
   return (
     <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-20 px-4">
@@ -31,19 +30,21 @@ export default function HeroSection({
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Link
+          <a
             href={ctaHref}
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-amber-500 hover:bg-amber-400 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors"
           >
             {ctaText}
-          </Link>
+          </a>
           <a
-            href="https://wa.me/905391234567"
+            href="https://wa.me/905353998999?text=Hello%2C%20I%20would%20like%20to%20ask%20some%20questions%20about%20P-Shot%20treatment."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-600 hover:bg-green-500 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors"
           >
-            Send Your Case on WhatsApp
+            Ask Questions
           </a>
         </div>
 

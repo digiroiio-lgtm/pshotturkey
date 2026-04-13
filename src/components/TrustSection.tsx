@@ -1,20 +1,4 @@
-import Image from 'next/image';
 import { Star, BadgeCheck } from 'lucide-react';
-
-const doctors = [
-  {
-    name: 'Dr. Mehmet Yilmaz',
-    title: 'Senior Urologist & Sexual Health Specialist',
-    experience: '15 years experience',
-    image: 'https://placehold.co/120x120/1e40af/ffffff?text=Dr+MY',
-  },
-  {
-    name: 'Dr. Ahmet Kaya',
-    title: 'PRP Therapy Specialist',
-    experience: '12 years experience',
-    image: 'https://placehold.co/120x120/1e40af/ffffff?text=Dr+AK',
-  },
-];
 
 const testimonials = [
   {
@@ -55,25 +39,6 @@ export default function TrustSection() {
             <div key={cert} className="flex items-center gap-2 bg-white border border-blue-200 text-blue-800 px-5 py-2 rounded-full shadow-sm font-semibold text-sm">
               <BadgeCheck size={18} />
               {cert}
-            </div>
-          ))}
-        </div>
-
-        {/* Doctors */}
-        <h3 className="text-2xl font-semibold text-slate-800 text-center mb-8">Our Medical Team</h3>
-        <div className="flex flex-wrap justify-center gap-8 mb-14">
-          {doctors.map(doc => (
-            <div key={doc.name} className="bg-white rounded-xl p-6 shadow-sm text-center w-64">
-              <Image
-                src={doc.image}
-                alt={doc.name}
-                width={80}
-                height={80}
-                className="rounded-full mx-auto mb-4"
-              />
-              <h4 className="font-bold text-slate-800">{doc.name}</h4>
-              <p className="text-blue-700 text-sm mt-1">{doc.title}</p>
-              <p className="text-slate-500 text-xs mt-1">{doc.experience}</p>
             </div>
           ))}
         </div>

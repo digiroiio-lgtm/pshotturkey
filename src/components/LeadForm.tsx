@@ -1,149 +1,39 @@
-'use client';
-import { useState, FormEvent } from 'react';
+const WA = 'https://wa.me/905353998999';
 
-const countries = [
-  'United Kingdom', 'United States', 'Germany', 'France', 'Netherlands',
-  'Belgium', 'Sweden', 'Norway', 'Denmark', 'Switzerland', 'Austria',
-  'Ireland', 'Australia', 'Canada', 'Other',
+const actions = [
+  { label: 'Ask an ED Expert', msg: 'Hello, I would like to ask an ED expert about P-Shot treatment.' },
+  { label: 'Check Your Eligibility', msg: 'Hello, I would like to check my eligibility for P-Shot treatment in Turkey.' },
+  { label: 'Talk to Our Assistant', msg: 'Hello, I have some questions about P-Shot treatment and would like to talk to your assistant.' },
+  { label: 'Get a Free Consultation', msg: 'Hello, I would like to book a free consultation for P-Shot treatment.' },
 ];
 
-interface FormData {
-  name: string;
-  country: string;
-  age: string;
-  condition: string;
-  whatsapp: string;
-}
-
 export default function LeadForm() {
-  const [form, setForm] = useState<FormData>({
-    name: '',
-    country: '',
-    age: '',
-    condition: '',
-    whatsapp: '',
-  });
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    setForm(prev => ({ ...prev, [e.target.name]: e.target.value }));
-  };
-
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    // Analytics placeholder — replace with API call before production
-    console.log('Lead form submission:', form);
-    setSubmitted(true);
-  };
-
   return (
     <section id="contact" className="py-16 px-4 bg-blue-50">
-      <div className="max-w-2xl mx-auto">
-        <h2 className="text-3xl font-bold text-slate-800 text-center mb-3">Check Your Eligibility</h2>
-        <p className="text-slate-600 text-center mb-8">
-          Fill in your details and our specialists will assess your case and get back to you within 24 hours — completely free.
+      <div className="max-w-2xl mx-auto text-center">
+        <h2 className="text-3xl font-bold text-slate-800 mb-3">Talk to a Specialist – It&apos;s Free</h2>
+        <p className="text-slate-600 mb-10">
+          Connect with our team instantly on WhatsApp. Get answers, check your eligibility, and start your treatment journey today — no obligation.
         </p>
-
-        {submitted ? (
-          <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
-            <div className="text-4xl mb-3">✓</div>
-            <h3 className="text-xl font-bold text-green-800 mb-2">Thank you! We received your enquiry.</h3>
-            <p className="text-green-700">Our team will contact you within 24 hours. You can also reach us directly on WhatsApp.</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {actions.map(({ label, msg }) => (
             <a
-              href="https://wa.me/905391234567"
-              className="inline-block mt-4 bg-green-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-500 transition-colors"
+              key={label}
+              href={`${WA}?text=${encodeURIComponent(msg)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-white font-semibold py-4 px-6 rounded-xl text-base transition-colors shadow-sm"
             >
-              Chat on WhatsApp
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              {label}
             </a>
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-md p-8 space-y-5">
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="name">Full Name *</label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                required
-                value={form.name}
-                onChange={handleChange}
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-800"
-                placeholder="Your full name"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="country">Country *</label>
-              <select
-                id="country"
-                name="country"
-                required
-                value={form.country}
-                onChange={handleChange}
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-800 bg-white"
-              >
-                <option value="">Select your country</option>
-                {countries.map(c => <option key={c} value={c}>{c}</option>)}
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="age">Age *</label>
-              <input
-                id="age"
-                name="age"
-                type="number"
-                required
-                min={18}
-                max={90}
-                value={form.age}
-                onChange={handleChange}
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-800"
-                placeholder="Your age"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="condition">Describe Your Condition</label>
-              <input
-                id="condition"
-                name="condition"
-                type="text"
-                value={form.condition}
-                onChange={handleChange}
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-800"
-                placeholder="e.g. Mild ED, sensitivity issues, Peyronie's disease"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm font-medium text-slate-700 mb-1" htmlFor="whatsapp">WhatsApp Number *</label>
-              <input
-                id="whatsapp"
-                name="whatsapp"
-                type="tel"
-                required
-                value={form.whatsapp}
-                onChange={handleChange}
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-800"
-                placeholder="+44 7700 000000"
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="w-full bg-blue-800 text-white font-bold py-4 rounded-lg text-lg hover:bg-blue-700 transition-colors"
-            >
-              Check Your Eligibility
-            </button>
-
-            <p className="text-xs text-slate-400 text-center">
-              By submitting this form, you agree to our{' '}
-              <a href="/privacy-policy" className="underline hover:text-blue-600">Privacy Policy</a>.
-              Your data will never be shared with third parties.
-            </p>
-          </form>
-        )}
+          ))}
+        </div>
+        <p className="mt-8 text-sm text-slate-400">
+          Responses typically within minutes. All conversations are private and confidential.
+        </p>
       </div>
     </section>
   );
