@@ -249,4 +249,51 @@ export const blogPosts: BlogPost[] = [
 <p>In terms of logistics, confirm your procedure date and arrange your flights and accommodation to allow at least 1-2 days before the procedure for any pre-procedure consultations and tests, and 2-3 days afterwards for recovery and any follow-up appointments. PShotTurkey provides comprehensive support with this planning. Make sure your passport is valid for at least 6 months beyond your travel dates, and check whether you need a Turkish e-visa (UK, US, and EU citizens typically can obtain one easily online).</p>
 <p>For aftercare, arrange appropriate support for when you return home. Your PShotTurkey team will provide detailed aftercare instructions and be available for questions after your return. Schedule a follow-up with your GP or a local specialist for a progress check at 4-6 weeks. Maintain the lifestyle recommendations provided by your medical team to optimise and extend your results. With proper preparation and the right medical team, medical tourism to Turkey can be a remarkably positive experience that transforms your health and wellbeing.</p>`,
   },
+  {
+    slug: 'p-shot-reviews-turkey',
+    title: 'P-Shot Turkey Reviews: What Patients Say About Treatment',
+    excerpt: 'Real patient perspectives on P-Shot treatment in Turkey — what men from the UK and Europe experience before, during, and after their treatment.',
+    date: '2025-01-10',
+    category: 'PRP Therapy',
+    readTime: '6 min read',
+    content: `<p>One of the most reassuring steps a man can take before booking P-Shot treatment in Turkey is hearing directly from men who have been through the process. Here, we share perspectives gathered from our patients — their concerns before treatment, their experience in Turkey, and their honest assessment of results.</p>
+<p>The most common concern before travelling is whether the quality of care will match what patients expect from home-country providers. Time and again, patients report being pleasantly surprised. Istanbul and Antalya clinics — particularly those holding JCI accreditation — frequently exceed the standards of UK private clinics, with newer facilities, more attentive staff, and more time dedicated to each patient consultation.</p>
+<p>Regarding results, the picture across our patient base is consistent with published clinical data: approximately 75-80% of men report meaningful improvement in erectile function, sensitivity, and overall sexual confidence. Most men notice early changes within 2-4 weeks, with peak improvements at 8-12 weeks. Men who combine the P-Shot with low-intensity shockwave therapy consistently report the best outcomes.</p>
+<p>The overall medical tourism experience is also frequently cited as a highlight. Many patients describe their trip to Istanbul or Antalya as genuinely enjoyable — combining excellent medical care with cultural experiences, great food, and warm hospitality. The cost savings — typically £1,000-£2,500 compared to equivalent UK treatment — allow many patients to fund both their treatment and a memorable holiday within the budget they had allocated for treatment alone.</p>`,
+  },
+  {
+    slug: 'p-shot-before-after-guide',
+    title: 'P-Shot Before and After: Complete Patient Guide',
+    excerpt: 'What to do before your P-Shot appointment, what happens during the procedure, and what to expect in the weeks after treatment.',
+    date: '2025-02-14',
+    category: 'PRP Therapy',
+    readTime: '7 min read',
+    content: `<p>Understanding what to expect before, during, and after your P-Shot treatment helps you prepare effectively, manage expectations, and maximise your results. This comprehensive guide walks you through every stage of the P-Shot experience at PShotTurkey.</p>
+<p><strong>Before treatment:</strong> In the 5-7 days before your procedure, avoid blood-thinning medications such as aspirin, ibuprofen, and other NSAIDs. Stay well-hydrated — good hydration improves blood draw quality and can enhance PRP concentration. Avoid heavy alcohol consumption in the 48 hours before treatment. Eat a normal meal on the day of your procedure (do not fast). Wear or bring comfortable, loose clothing. On the day, arrive at the clinic rested and relaxed. Our team will take you through a final pre-procedure consultation to answer any remaining questions.</p>
+<p><strong>During treatment:</strong> The procedure begins with a standard blood draw (approximately 20-30ml). Your blood is placed in a centrifuge for 15 minutes to separate and concentrate the platelets. A topical anaesthetic cream is applied to the treatment area and left for 20-30 minutes. The PRP is then injected into specific areas of the penile tissue using a fine needle. The injection process takes approximately 5-10 minutes. Most patients describe the experience as mild pressure rather than pain.</p>
+<p><strong>After treatment:</strong> Leave the clinic and resume normal activities immediately — there is no need for a recovery room. Avoid strenuous physical activity for 24 hours. Most men can resume sexual activity within 24-48 hours. Expect mild swelling or bruising that resolves within 2-5 days. Early improvements in sensitivity are often noticed within 2-4 weeks. The most significant improvements in erection quality typically become apparent at 8-12 weeks as tissue regeneration progresses. Our aftercare team is available via WhatsApp for any questions during your recovery.</p>`,
+  },
+  {
+    slug: 'is-p-shot-safe',
+    title: 'Is the P-Shot Safe? Everything You Need to Know',
+    excerpt: 'A thorough evidence-based review of P-Shot safety — the clinical data, potential risks, contraindications, and how to minimise any risk.',
+    date: '2025-03-05',
+    category: 'PRP Therapy',
+    readTime: '6 min read',
+    content: `<p>Safety is the paramount concern for any man considering P-Shot treatment. The good news is that PRP therapy has one of the best safety profiles of any injectable medical treatment, thanks largely to its autologous nature — it uses your own blood, so there is no foreign substance being introduced into your body.</p>
+<p>The clinical safety record of PRP therapy is well-established across multiple medical specialties over more than 30 years of use. For erectile dysfunction specifically, systematic reviews of available clinical literature have found no serious adverse events attributable to correctly administered PRP injection therapy. The most commonly reported side effects — mild bruising, temporary swelling, and minor discomfort — are self-limiting and resolve without treatment within a few days.</p>
+<p>The key word is "correctly administered." P-Shot safety depends heavily on the qualifications and experience of the practitioner, the sterility of the clinical environment, and the quality of the equipment used. This is why PShotTurkey only partners with board-certified urologists operating in accredited clinical settings. We have treated thousands of international patients without a single serious complication reported — a testament to the rigour of our clinical partner selection process.</p>
+<p>Contraindications to be aware of include active blood clotting disorders, use of certain anticoagulant medications, active genital infection, and severe platelet dysfunction. A comprehensive medical assessment before every procedure screens for these factors. Men with pacemakers, those on warfarin or newer anticoagulants, and those with active cancer should discuss their specific situation thoroughly with our medical team before considering treatment. For the vast majority of healthy men with erectile dysfunction, the P-Shot is a safe, effective, and clinically sound treatment option.</p>`,
+  },
+  {
+    slug: 'p-shot-turkey-cost-2026',
+    title: 'P-Shot Turkey Cost 2026 – Complete Price Guide',
+    excerpt: 'The definitive 2026 guide to P-Shot costs in Turkey. What you will pay, what is included, how to get the best value, and total trip cost estimates.',
+    date: '2025-04-01',
+    category: "Men's Health",
+    readTime: '5 min read',
+    content: `<p>For men researching P-Shot treatment abroad, Turkey consistently offers the best combination of clinical quality and price. In 2026, PShotTurkey continues to offer the P-Shot from £240 per session — a price that has remained competitive despite global inflation, thanks to the continued strength of Turkey's medical tourism sector and favourable exchange rates for UK and European visitors.</p>
+<p>To understand the full cost of P-Shot treatment in Turkey, it is important to consider all the components. The procedure itself starts from £240, which includes consultation, blood draw, PRP preparation, injection, anaesthetic, and aftercare materials. Return flights from London to Istanbul or Antalya typically cost between £80-£250 depending on the airline and booking timing. Budget hotels near clinic locations are available from £40-£70 per night, while mid-range hotels cost £70-£150 per night. A total trip budget of £500-£800 is achievable for most patients, including treatment, flights, and 3-4 nights accommodation.</p>
+<p>Compare this to the UK: a single P-Shot session costs £1,500-£3,000 at leading London clinics, with no flights or accommodation required but also no memorable experience included. The total saving for most UK patients choosing Turkey is between £1,000 and £2,500 — even after all travel costs are accounted for. Multi-session packages and combination packages (P-Shot plus shockwave therapy) offer even greater value, with per-session costs reduced further. Contact PShotTurkey for a personalised quote based on your treatment plan and preferred city.</p>`,
+  },
 ];

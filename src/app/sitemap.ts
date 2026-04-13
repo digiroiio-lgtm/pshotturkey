@@ -8,7 +8,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '', '/p-shot-turkey', '/p-shot-cost-turkey', '/p-shot-istanbul',
     '/p-shot-antalya', '/erectile-dysfunction-treatment-turkey',
     '/prp-for-ed', '/shockwave-therapy-turkey', '/blog',
-    '/privacy-policy', '/terms'
+    '/privacy-policy', '/terms',
+    // Money pages
+    '/p-shot-turkey-price', '/p-shot-clinic-turkey', '/p-shot-package-turkey',
+    '/best-p-shot-clinic-turkey',
+    // City pages
+    '/p-shot-izmir', '/genital-prp-turkey', '/prp-injection-turkey',
+    // Informational / long-tail
+    '/p-shot-before-after-turkey', '/is-p-shot-safe-turkey',
+    '/how-many-sessions-p-shot-turkey',
   ].map(route => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
