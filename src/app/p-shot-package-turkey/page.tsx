@@ -92,7 +92,9 @@ export default function PShotPackageTurkeyPage() {
                   ))}
                 </ul>
                 <a
-                  href="#lead-form"
+                  href="https://wa.me/905353998999"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block text-center bg-blue-800 text-white font-semibold py-2 rounded-lg hover:bg-blue-900 transition-colors"
                 >
                   {cta}

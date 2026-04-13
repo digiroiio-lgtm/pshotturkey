@@ -9,10 +9,12 @@ export default function CTASection() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#contact"
+            href="https://wa.me/905353998999?text=Hello%2C%20I%20would%20like%20to%20ask%20an%20ED%20expert%20about%20P-Shot%20treatment."
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-amber-500 hover:bg-amber-400 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors"
           >
-            Check Your Eligibility
+            Ask an ED Expert
           </a>
           <a
             href="https://wa.me/905353998999"

@@ -12,7 +12,7 @@ export default function Header() {
     { label: 'P-Shot', href: '/p-shot-turkey' },
     { label: 'Pricing', href: '/p-shot-cost-turkey' },
     { label: 'Blog', href: '/blog' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Contact', href: 'https://wa.me/905353998999' },
   ];
 
   return (
@@ -38,12 +38,14 @@ export default function Header() {
 
           <div className="hidden md:flex items-center gap-4">
             <CurrencyToggle />
-            <Link
-              href="#contact"
+            <a
+              href="https://wa.me/905353998999"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-blue-800 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               Free Consultation
-            </Link>
+            </a>
           </div>
 
           {/* Mobile hamburger */}
@@ -73,13 +75,15 @@ export default function Header() {
           <div className="pt-2">
             <CurrencyToggle />
           </div>
-          <Link
-            href="#contact"
+          <a
+            href="https://wa.me/905353998999"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setMobileOpen(false)}
             className="block bg-blue-800 text-white px-4 py-2 rounded-lg font-semibold text-center mt-2"
           >
             Free Consultation
-          </Link>
+          </a>
         </div>
       )}
     </header>

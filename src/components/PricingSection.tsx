@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import { useCurrency } from '@/lib/CurrencyContext';
 import { formatPrice } from '@/lib/currency';
 import { CheckCircle } from 'lucide-react';
@@ -40,12 +39,14 @@ export default function PricingSection() {
                 </li>
               ))}
             </ul>
-            <Link
-              href="#contact"
+            <a
+              href="https://wa.me/905353998999?text=Hello%2C%20I%20would%20like%20to%20get%20an%20exact%20quote%20for%20P-Shot%20treatment."
+              target="_blank"
+              rel="noopener noreferrer"
               className="block w-full text-center bg-blue-800 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition-colors"
             >
               Get Exact Quote
-            </Link>
+            </a>
           </div>
 
           {/* Comparison table */}
