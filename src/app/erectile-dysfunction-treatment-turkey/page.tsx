@@ -66,6 +66,25 @@ export default function EDTreatmentTurkeyPage() {
       <TrustSection />
       <CTASection />
       <LeadForm />
+      <section className="py-12 px-4 bg-slate-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-slate-800 text-center mb-8">ED Treatment Resources</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {[
+              { href: '/prp-for-ed-turkey', label: 'PRP for ED in Turkey' },
+              { href: '/shockwave-therapy-turkey', label: 'Shockwave Therapy Turkey' },
+              { href: '/p-shot-vs-shockwave-therapy', label: 'P-Shot vs Shockwave' },
+              { href: '/prp-vs-fillers-for-ed', label: 'PRP vs Fillers for ED' },
+              { href: '/p-shot-cost-turkey', label: 'ED Treatment Cost' },
+              { href: '/p-shot-turkey', label: 'P-Shot Turkey' },
+            ].map(({ href, label }) => (
+              <a key={href} href={href} className="block p-4 bg-white rounded-lg border border-slate-200 hover:border-blue-500 hover:shadow-sm transition-all text-slate-700 font-medium text-sm text-center">
+                {label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }

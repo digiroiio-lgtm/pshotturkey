@@ -14,6 +14,14 @@ export const metadata: Metadata = {
   description:
     "World-class P-Shot (PRP) treatment for erectile dysfunction in Turkey. Starting from £350. Free consultation available.",
   metadataBase: new URL("https://pshotturkey.com"),
+  alternates: {
+    canonical: 'https://pshotturkey.com',
+    languages: {
+      'en-GB': 'https://pshotturkey.com',
+      'en-US': 'https://pshotturkey.com/p-shot-usa',
+      'de': 'https://pshotturkey.com/p-shot-germany',
+    },
+  },
   openGraph: {
     type: "website",
     siteName: "PShotTurkey",

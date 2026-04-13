@@ -31,6 +31,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/p-shot-uk', '/p-shot-usa', '/p-shot-germany',
     '/cheap-p-shot-turkey', '/p-shot-turkey-reviews',
     '/p-shot-turkey-before-after-results',
+    // Cannibalization fix — /p-shot-turkey-price and /cheap-p-shot-turkey now redirect to /p-shot-cost-turkey
+    // New money/funnel pages
+    '/p-shot-near-me', '/p-shot-abroad', '/medical-tourism-ed-treatment',
+    // Conversion pages
+    '/free-consultation', '/whatsapp-consultation', '/book-treatment',
+    // City pages — UK
+    '/p-shot-london', '/p-shot-manchester', '/p-shot-birmingham', '/p-shot-leeds',
+    // City pages — USA
+    '/p-shot-new-york', '/p-shot-los-angeles', '/p-shot-miami',
+    // City pages — Germany
+    '/p-shot-berlin', '/p-shot-munich',
   ].map(route => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),

@@ -78,6 +78,25 @@ export default function IsPShotSafePage() {
       <TrustSection />
       <CTASection />
       <LeadForm />
+      <section className="py-12 px-4 bg-slate-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-slate-800 text-center mb-8">More Safety &amp; Results Resources</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {[
+              { href: '/p-shot-side-effects', label: 'P-Shot Side Effects' },
+              { href: '/p-shot-before-after', label: 'Before & After Results' },
+              { href: '/p-shot-turkey-reviews', label: 'Patient Reviews' },
+              { href: '/p-shot-success-rate', label: 'P-Shot Success Rate' },
+              { href: '/who-is-good-candidate-p-shot', label: 'Am I a Candidate?' },
+              { href: '/p-shot-cost-turkey', label: 'View Pricing' },
+            ].map(({ href, label }) => (
+              <a key={href} href={href} className="block p-4 bg-white rounded-lg border border-slate-200 hover:border-blue-500 hover:shadow-sm transition-all text-slate-700 font-medium text-sm text-center">
+                {label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }
