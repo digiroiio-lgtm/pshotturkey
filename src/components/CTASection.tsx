@@ -15,7 +15,7 @@ export default function CTASection() {
             Check Your Eligibility
           </a>
           <a
-            href="https://wa.me/905391234567"
+            href="https://wa.me/905353998999"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-600 hover:bg-green-500 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors"

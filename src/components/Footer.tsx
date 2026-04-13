@@ -68,12 +68,12 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://wa.me/905391234567"
+                  href="https://wa.me/905353998999"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  WhatsApp: +90 539 123 4567
+                  WhatsApp: +90 535 399 8999
                 </a>
               </li>
               <li className="text-gray-400">Istanbul, Turkey</li>

@@ -87,7 +87,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               <Link href="/#contact" className="bg-blue-800 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors text-center">
                 Free Consultation
               </Link>
-              <a href="https://wa.me/905391234567" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-500 transition-colors text-center">
+              <a href="https://wa.me/905353998999" target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-500 transition-colors text-center">
                 WhatsApp Us
               </a>
             </div>

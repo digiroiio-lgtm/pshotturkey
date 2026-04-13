@@ -50,7 +50,7 @@ export default function LeadForm() {
             <h3 className="text-xl font-bold text-green-800 mb-2">Thank you! We received your enquiry.</h3>
             <p className="text-green-700">Our team will contact you within 24 hours. You can also reach us directly on WhatsApp.</p>
             <a
-              href="https://wa.me/905391234567"
+              href="https://wa.me/905353998999"
               className="inline-block mt-4 bg-green-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-green-500 transition-colors"
             >
               Chat on WhatsApp
