@@ -17,6 +17,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Informational / long-tail
     '/p-shot-before-after-turkey', '/is-p-shot-safe-turkey',
     '/how-many-sessions-p-shot-turkey',
+    // Commercial alias pages
+    '/ed-treatment-turkey', '/prp-for-ed-turkey',
+    '/p-shot-packages-turkey', '/best-p-shot-clinics-turkey',
+    // Informational flat-URL pages
+    '/how-long-does-p-shot-last', '/is-p-shot-safe',
+    '/how-many-sessions-p-shot-needed', '/p-shot-before-after',
+    '/does-p-shot-increase-size', '/p-shot-side-effects',
+    '/p-shot-vs-shockwave-therapy', '/prp-vs-fillers-for-ed',
+    '/who-is-good-candidate-p-shot', '/recovery-after-p-shot',
+    '/p-shot-success-rate', '/how-p-shot-works',
+    // Country / long-tail pages
+    '/p-shot-uk', '/p-shot-usa', '/p-shot-germany',
+    '/cheap-p-shot-turkey', '/p-shot-turkey-reviews',
+    '/p-shot-turkey-before-after-results',
   ].map(route => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
